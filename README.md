@@ -55,9 +55,6 @@ Input:
  [0,1,0,1],
  [1,0,0,1]]
 
-
-
-
 Answer: 3
 
 Implementation Details
@@ -77,5 +74,6 @@ Acceptance Criteria
 The function correctly counts islands for the provided example and custom test cases.
 
 Time Complexity: Achieves O(m · n), where $m$ and $n$ are the dimensions of the grid, as every cell is visited at most once.
+
 
 Space Complexity: O(m · n) in the worst case (e.g., a grid entirely of land), primarily due to the DFS recursion stack.
